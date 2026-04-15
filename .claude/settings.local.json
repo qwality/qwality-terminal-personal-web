@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(export PATH=\"$PATH:/c/Program Files/Docker/Docker/resources/bin:/c/Program Files/GitHub CLI\")",
+      "Bash(MSYS_NO_PATHCONV=1 docker run --rm -v \"C:/Users/lowqw/Programing/claude/projekt_1:/app\" -w /app node:22-alpine sh -c \"npx -y sv create . --template minimal --no-types --add tailwindcss='plugins:none' sveltekit-adapter='adapter:static' --no-install --no-dir-check\")",
+      "Bash(MSYS_NO_PATHCONV=1 docker compose -f \"C:/Users/lowqw/Programing/claude/projekt_1/docker-compose.yml\" up)",
+      "Bash(git init *)",
+      "Bash(git remote *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}
