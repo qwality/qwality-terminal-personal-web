@@ -17,5 +17,9 @@
 		"svelte": "^5.55.2",
 		"tailwindcss": "^4.2.2",
 		"vite": "^8.0.7"
+	},
+	"dependencies": {
+		"@skeletonlabs/skeleton": "^4.15.2",
+		"@skeletonlabs/skeleton-svelte": "^4.15.2"
 	}
 }
